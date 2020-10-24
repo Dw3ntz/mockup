@@ -52,6 +52,13 @@ main {
     margin-left: 10rem;
 }
 
+.bookheader {
+    background-image: url("lesson04-mock2-banner-image.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 5rem;
+}
+
 aside {
     float: right;
     width: 20%;
@@ -106,7 +113,6 @@ h3 {
     font-size: 18px;
 }
 
-
 span {
     color: #2c9ab7;
 }
@@ -118,6 +124,25 @@ p {
     font-size: 13px;
     padding-bottom: 1rem;
 }
+
+#form {
+    padding-bottom: 3rem;
+    border: 3px groove #2c9ab7;
+    margin-bottom: 3rem;
+    padding-left: 7rem;
+    
+}
+
+label {
+    font-size: 14px;
+    color: #2c9ab7;
+}
+
+
+
+
+
+
 
 footer {
     clear: both;
