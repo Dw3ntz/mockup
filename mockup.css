@@ -9,19 +9,20 @@ header {
     font-size: 40px;
     font-family: "Helvetica", sans-serif;
     padding: 3rem;
-    padding-left: 6rem;
+    padding-left: 9.5rem;
     font-weight: bold;
 }
 
 h1 {
     color: white;
-    font-size: 19px;
+    font-family: "Geneva", sans-serif;
+    font-size: 20px;
 }
 
 nav {
     background-color: #ebebeb;
-    padding: 15px;
-    padding-left: 6rem;
+    padding: 20px;
+    padding-left: 9rem;
     color: #3a3a3a;
     font-size: 13px;
     font-weight: bold;
@@ -47,52 +48,99 @@ a:link {
 }
 
 main {
-    padding-left: 6rem;
-    margin-right: 15rem;
+    width: 47%;
+    margin-left: 10rem;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+}
+
+figure {
+    letter-spacing: .3px;
+    line-height: 20px;
+    font-size: 13px;
+    margin-left: -1px;
+}
+
+figcaption {
+    margin-right: -2rem;
+}
+
+.sidebar a {
+    color: #2c9ab7;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+section a:first-of-type {
+    color: #2c9ab7;
+    text-decoration: none;
+}
+
+section a:first-of-type:hover {
+    text-decoration: underline;
 }
 
 h2 {
+    padding-top: 3rem;
     color: #2c9ab7;
-    font-size: 15px;
+    font-size: 16px;
 }
 
-article
-
-quote {
-    color: #2c9ab7;
+.quote {
+    color: #52bad5;
+    letter-spacing: .3px;
+    line-height: 25px;
+    font-size: 20px;
 }
 
-h3
+h3 {
+    padding-top: 2rem;
+    font-size: 18px;
+}
 
-section
 
 span {
     color: #2c9ab7;
 }
 
 p {
+    letter-spacing: .3px;
+    line-height: 20px;
+    padding-top: 1rem;
     font-size: 13px;
+    padding-bottom: 1rem;
 }
-
-figure
-
-figcaption
-
-img 
- 
-.sidebar {
-    
-}
-
 
 footer {
+    clear: both;
     color: white;
     font-family: "arial", sans-serif;
     background-color: #3a3a3a;
-    padding: 4rem;
-    align-content: center;
+    padding: 2rem;
+    text-align: center;
 }
 
-footer a {
+footer img {
+    padding-top: 2rem;
+}
+
+.footerlink a {
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
