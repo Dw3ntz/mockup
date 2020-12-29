@@ -138,8 +138,14 @@ label {
     color: #2c9ab7;
 }
 
-
-
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+.hidden:focus {
+    left: 0;
+}
 
 
 
